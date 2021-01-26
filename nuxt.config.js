@@ -26,7 +26,23 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
+    'bootstrap-vue/nuxt',
+    '@nuxtjs/firebase',
   ],
+
+  firebase: {
+    config: {
+      apiKey: 'AIzaSyCDGCZ01xUukRzz2MuVwoeUqxwxmABhOXY',
+      authDomain: 'blog-nuxt-583bd.firebaseapp.com',
+      projectId: 'blog-nuxt-583bd',
+      storageBucket: 'blog-nuxt-583bd.appspot.com',
+      messagingSenderId: '880496644262',
+      appId: '1:880496644262:web:6da96558ce1b49f4c6e467',
+    },
+    services: {
+      auth: true, // Just as example. Can be any other service.
+    },
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
