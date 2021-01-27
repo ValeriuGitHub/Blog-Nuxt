@@ -27,6 +27,10 @@ html {
     Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
+.container {
+  padding-top: 40px;
+}
+
 *,
 *::before,
 *::after {
