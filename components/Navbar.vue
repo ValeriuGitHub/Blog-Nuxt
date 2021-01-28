@@ -36,7 +36,6 @@ export default Vue.extend({})
     margin-right: 20px;
   }
   &-nav {
-    margin-top: 5px;
     flex: 1;
     justify-content: flex-end;
     & a {
