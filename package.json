@@ -13,9 +13,13 @@
   "dependencies": {
     "@nuxt/typescript-runtime": "^2.0.1",
     "@nuxtjs/firebase": "^7.4.1",
+    "@types/js-cookie": "^2.2.6",
     "bootstrap-vue": "^2.21.2",
+    "cookieparser": "^0.1.0",
     "core-js": "^3.8.2",
     "firebase": "^8.2.4",
+    "js-cookie": "^2.2.1",
+    "jwt-decode": "^3.1.2",
     "node-sass": "^5.0.0",
     "nuxt": "^2.14.12",
     "sass-loader": "^10.1.1"

@@ -17,7 +17,7 @@
           <nuxt-link to="/login">Login</nuxt-link>
         </li>
         <li class="navbar-item">
-          <nuxt-link to="/secret">Secret</nuxt-link>
+          <nuxt-link to="/admin">Admin</nuxt-link>
         </li>
       </b-navbar-nav>
     </b-collapse>
