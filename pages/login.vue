@@ -48,7 +48,7 @@ export default Vue.extend({
   },
   methods: {
     login() {
-      this.$store.dispatch('users/login', this.account).catch((error) => {
+      this.$store.dispatch('auth/login', this.account).catch((error) => {
         this.isError = true
         this.errMsg = error
 
